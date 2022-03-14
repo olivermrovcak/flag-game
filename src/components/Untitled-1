@@ -1,0 +1,31 @@
+
+//console.log(Math.floor(Math.random() * 9))
+    if(countries){
+      var arr = []
+      const setAnswers = () => {
+        setAsked(co)
+
+      
+    for(let i = 0; i < 10 ; i++){
+      var item = countries[Math.floor(Math.random()*countries.length)]
+      
+      if( !asked.includes(item?.name?.common) ){
+        
+        if(item){
+          arr.push(item.name.common)
+        }
+        
+        
+      }
+    }
+
+  }
+  setAnswers()
+    }
+    
+
+
+     <div  className='rounded-md p-1 bg-[#6DE283] text-center'>
+              
+             <button  className='text-white font-extrabold text-2xl'>{name}</button>
+           </div>
